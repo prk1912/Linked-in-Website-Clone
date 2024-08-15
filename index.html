@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Linked in</title>
+</head>
+<body>
+    <div class="main-container">
+        <nav class="navbar">
+            <div class="nav-left">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="search">
+                    <img src="./img/search.png" alt="">
+                </div>
+            </div>
+            <div class="nav-center">
+                <ul id="nav-links">
+                    <li><a href="#" class="active"> <img src="./img/home.png" alt=""> Home</a></li>
+                    <li><a href="#"> <img src="./img/network.png" alt=""> My Networks</a></li>
+                    <li><a href="#"> <img src="./img/jobs.png" alt=""> Jobs</a></li>
+                    <li><a href="#"> <img src="./img/message.png" alt=""> Messaging</a></li>
+                    <li><a href="#"> <img src="./img/notification.png" alt=""> Notification</a></li>
+                </ul>
+                <div class="bar-icon" id="nav-toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="profile-pic online">
+                    <img src="./img/user-1.png" id="toggle">
+                </div>
+
+                <!-- profile drop menu -->
+                <div class="profile-menu-wrap" id="profilemenu">
+                    <div class="profile-menu">
+                        <div class="user-info">
+                            <img src="./img/user-1.png" alt="">
+                            <div>
+                                <h3>Rayan Walton</h3>
+                                <a href="profile.html">See your profile</a>
+                            </div>
+                        </div>
+                        <hr>
+                        <a href="#">
+                            <div>
+                                <img src="./img/feedback.png" alt="">
+                                <small>Give Feedback</small>
+                            </div>
+                            <span>></span>
+
+                        </a>
+                        <a href="#">
+                            <div>
+                                <img src="./img/setting.png" alt="">
+                                <small>Setting & Privacy</small>
+                            </div>
+                            <span>></span>
+
+                        </a>
+                        <a href="#">
+                            <div>
+                                <img src="./img/help.png" alt="">
+                                <small>Help & Support</small>
+                            </div>
+                            <span>></span>
+
+                        </a>
+                        <a href="#">
+                            <div>
+                                <img src="./img/display.png" alt="">
+                                <small>Display & Accessibility</small>
+                            </div>
+                            <span>></span>
+
+                        </a>
+                        <a href="#">
+                            <div>
+                                <img src="./img/logout.png" alt="">
+                                <small>Logout</small>
+                            </div>
+                            <span>></span>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="left-sidebar">
+                <div class="sidebar-profile-box">
+                    <img src="./img/cover-pic.png" alt="">
+                    <div class="sidebar-profile-info">
+                        <img src="./img/user-1.png" alt="">
+                        <h1>Rayan Waltan</h1>
+                        <h3>web Developer at Microsoft</h3>
+                        <ul>
+                            <li>
+                                Your Profile Views
+                                <span>52</span>
+                            </li>
+                            <li>
+                                Your Post Views
+                                <span>810</span>
+                            </li>
+                            <li>
+                                Your Connection
+                                <span>205</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar-profile-link">
+                        <a href="#"><img src="./img/items.png" alt="">My items</a>
+                        <a href="#"><img src="./img/premium.png" alt="">Try premium</a>
+                    </div>
+                    <div class="side-activity">
+                        <h3>Recent</h3>
+                        <a href="#"><img src="./img/recent.png" alt="">Web Development</a>
+                        <a href="#"><img src="./img/recent.png" alt="">User Interface</a>
+                        <a href="#"><img src="./img/recent.png" alt="">Online Learning</a>
+                        <a href="#"><img src="./img/recent.png" alt="">Learn Online</a>
+                        <a href="#"><img src="./img/recent.png" alt="">Code Better</a>
+                        <a href="#"><img src="./img/recent.png" alt="">Group Learning</a>
+
+                        <h3>Groups</h3>
+                        <a href="#"><img src="./img/group.png" alt="">Web Design Group</a>
+                        <a href="#"><img src="./img/group.png" alt="">HTML & CSS Learners</a>
+                        <a href="#"><img src="./img/group.png" alt="">Pythin & Javascript Group</a>
+                        <a href="#"><img src="./img/group.png" alt="">Learn Coding Online</a>
+
+                        <h3>hashtag</h3>
+                        <a href="#"><img src="./img/hashtag.png" alt="">WebDevelopment</a>
+                        <a href="#"><img src="./img/hashtag.png" alt="">Userinterface</a>
+                        <a href="#"><img src="./img/hashtag.png" alt="">Onlinelearning</a>
+
+                        <div class="discover-more">
+                            <a href="#">Discover more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="create-post">
+                    <div class="create-post-input">
+                        <img src="./img/user-1.png" alt="">
+                        <textarea name="" id="" cols="2" placeholder="write a post"></textarea>
+                    </div>
+                </div>
+                <div class="create-post-link">
+                    <a href="#"><img src="./img/photo.png" alt=""> Photo </a>
+                    <a href="#"><img src="./img/video.png" alt=""> Video</a>
+                    <a href="#"><img src="./img/event.png" alt=""> Event</a>
+                    <a href="#">Post</a>
+                </div>
+                <div class="sort-by">
+                    <hr>
+                    <p>Sort by<span>top <img src="./img/down-arrow.png" alt=""> </span></p>
+                </div>
+<!-- 1 -->
+                <div class="post">
+                    <div class="post-author">
+                        <img src="./img/user-3.png" alt="">
+                        <div>
+                            <h1>Benjamin Leo</h1>
+                            <small>Founder and CEO at Gellelio Group | Angel Investor</small>
+                            <small>2 hour ago</small>
+                        </div>
+                    </div>
+                    <p>The success of everything website depends on search engine optimisation and digital marketing. If you are on first page of all major search engines then you are ahead among your competitors.</p>
+                    <img src="./img/post-image-1.png" alt="">
+                    <div class="post-status">
+                        <div>
+                            <img src="./img/thumbsup.png" alt="">
+                            <img src="./img/love.png" alt="">
+                            <img src="./img/clap.png" alt="">
+                            <span class="liked-user">Abinav Mishra and 75 others</span>
+                        </div>
+                        <div>
+                            <span>22 comments &middot; 40 shares </span>
+                        </div>
+                    </div>
+                    <div class="post-activity">
+                        <a href="#"><img src="./img/user-1.png" alt="" class="firts"> <img src="./img/down-arrow.png" alt="" class="second"></a>
+                        <a href="#"><img src="./img/like.png" alt=""> Like </a>
+                        <a href="#"><img src="./img/comment.png" alt=""> Comment</a>
+                        <a href="#"><img src="./img/share.png" alt=""> Share</a>
+                        <a href="#"><img src="./img/send.png" alt=""> Send</a>
+                    </div>
+                </div>
+
+<!-- 2 -->
+                <div class="post">
+                    <div class="post-author">
+                        <img src="./img/user-4.png" alt="">
+                        <div>
+                            <h1>Clarence George</h1>
+                            <small>Founder and CEO at Gellelio Group | Angel Investor</small>
+                            <small>2 hour ago</small>
+                        </div>
+                    </div>
+                    <p>The success of everything website depends on search engine optimisation and digital marketing. If you are on first page of all major search engines then you are ahead among your competitors.</p>
+                    <img src="./img/post-image-2.png" alt="">
+                    <div class="post-status">
+                        <div>
+                            <img src="./img/thumbsup.png" alt="">
+                            <img src="./img/love.png" alt="">
+                            <img src="./img/clap.png" alt="">
+                            <span class="liked-user">Abinav Mishra and 75 others</span>
+                        </div>
+                        <div>
+                            <span>22 comments &middot; 40 shares </span>
+                        </div>
+                    </div>
+                    <div class="post-activity">
+                        <a href="#"><img src="./img/user-1.png" alt="" class="firts"> <img src="./img/down-arrow.png" alt="" class="second"></a>
+                        <a href="#"><img src="./img/like.png" alt=""> Like </a>
+                        <a href="#"><img src="./img/comment.png" alt=""> Comment</a>
+                        <a href="#"><img src="./img/share.png" alt=""> Share</a>
+                        <a href="#"><img src="./img/send.png" alt=""> Send</a>
+                    </div>
+                </div>
+
+<!-- 3 -->
+                <div class="post">
+                    <div class="post-author">
+                        <img src="./img/user-3.png" alt="">
+                        <div>
+                            <h1>Benjamin Leo</h1>
+                            <small>Founder and CEO at Gellelio Group | Angel Investor</small>
+                            <small>2 hour ago</small>
+                        </div>
+                    </div>
+                    <p>The success of everything website depends on search engine optimisation and digital marketing. If you are on first page of all major search engines then you are ahead among your competitors.</p>
+                    <img src="./img/post-image-3.png" alt="">
+                    <div class="post-status">
+                        <div>
+                            <img src="./img/thumbsup.png" alt="">
+                            <img src="./img/love.png" alt="">
+                            <img src="./img/clap.png" alt="">
+                            <span class="liked-user">Abinav Mishra and 75 others</span>
+                        </div>
+                        <div>
+                            <span>22 comments &middot; 40 shares </span>
+                        </div>
+                    </div>
+                    <div class="post-activity">
+                        <a href="#"><img src="./img/user-1.png" alt="" class="firts"> <img src="./img/down-arrow.png" alt="" class="second"></a>
+                        <a href="#"><img src="./img/like.png" alt=""> Like </a>
+                        <a href="#"><img src="./img/comment.png" alt=""> Comment</a>
+                        <a href="#"><img src="./img/share.png" alt=""> Share</a>
+                        <a href="#"><img src="./img/send.png" alt=""> Send</a>
+                    </div>
+                </div>
+<!-- 4 -->
+                <div class="post">
+                    <div class="post-author">
+                        <img src="./img/user-3.png" alt="">
+                        <div>
+                            <h1>Benjamin Leo</h1>
+                            <small>Founder and CEO at Gellelio Group | Angel Investor</small>
+                            <small>2 hour ago</small>
+                        </div>
+                    </div>
+                    <p>The success of everything website depends on search engine optimisation and digital marketing. If you are on first page of all major search engines then you are ahead among your competitors.</p>
+                    <img src="./img/post-image-4.png" alt="">
+                    <div class="post-status">
+                        <div>
+                            <img src="./img/thumbsup.png" alt="">
+                            <img src="./img/love.png" alt="">
+                            <img src="./img/clap.png" alt="">
+                            <span class="liked-user">Abinav Mishra and 75 others</span>
+                        </div>
+                        <div>
+                            <span>22 comments &middot; 40 shares </span>
+                        </div>
+                    </div>
+                    <div class="post-activity">
+                        <a href="#"><img src="./img/user-1.png" alt="" class="firts"> <img src="./img/down-arrow.png" alt="" class="second"></a>
+                        <a href="#"><img src="./img/like.png" alt=""> Like </a>
+                        <a href="#"><img src="./img/comment.png" alt=""> Comment</a>
+                        <a href="#"><img src="./img/share.png" alt=""> Share</a>
+                        <a href="#"><img src="./img/send.png" alt=""> Send</a>
+                    </div>
+                </div>
+<!-- 5 -->
+                <div class="post">
+                    <div class="post-author">
+                        <img src="./img/user-3.png" alt="">
+                        <div>
+                            <h1>Benjamin Leo</h1>
+                            <small>Founder and CEO at Gellelio Group | Angel Investor</small>
+                            <small>2 hour ago</small>
+                        </div>
+                    </div>
+                    <p>The success of everything website depends on search engine optimisation and digital marketing. If you are on first page of all major search engines then you are ahead among your competitors.</p>
+                    <img src="./img/post-image-1.png" alt="">
+                    <div class="post-status">
+                        <div>
+                            <img src="./img/thumbsup.png" alt="">
+                            <img src="./img/love.png" alt="">
+                            <img src="./img/clap.png" alt="">
+                            <span class="liked-user">Abinav Mishra and 75 others</span>
+                        </div>
+                        <div>
+                            <span>22 comments &middot; 40 shares </span>
+                        </div>
+                    </div>
+                    <div class="post-activity">
+                        <a href="#"><img src="./img/user-1.png" alt="" class="firts"> <img src="./img/down-arrow.png" alt="" class="second"></a>
+                        <a href="#"><img src="./img/like.png" alt=""> Like </a>
+                        <a href="#"><img src="./img/comment.png" alt=""> Comment</a>
+                        <a href="#"><img src="./img/share.png" alt=""> Share</a>
+                        <a href="#"><img src="./img/send.png" alt=""> Send</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right-sidebar">
+                <div class="sidebar-news">
+                    <h3>Trending News <img src="./img/more.png" alt=""> </h3>
+
+                    <a href="#">High demand for skilled manpower</a>
+                    <span>1d ago-10,934 readers</span>
+
+                    <a href="#">Career growing harizontally too</a>
+                    <span>19h ago - 1552 readers </span>
+
+                    <a href="#">Less work visa for US,more for UK</a>
+                    <span>1d ago - 27,290 readers </span>
+
+                    <a href="#">More hiring = higher confidence?</a>
+                    <span>18h ago - 8208 readers</span>
+
+                    <a href="#">Gautam Adani is the world's third richest</a>
+                    <span>12h ago - 4206 readers</span>
+
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+                <div class="sidebar-ad">
+                    <small>Ad...</small>
+                    <p>Master the 5 principles of web design</p>
+                    <div class="ad-img">
+                        <img src="./img/user-1.png" alt="">
+                        <img src="./img/mi-logo.png" alt="">
+                    </div>
+                    <p>Brand and Demand in xiaomi</p>
+                    <a href="#" class="learn-more">Learn More</a>
+                </div>
+                <div class="sidebar-links">
+                    <a href="#">About</a>
+                    <a href="#">Accesibility</a>
+                    <a href="#">Help Center</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Advertising</a>
+                    <a href="#">Get the App</a>
+                    <a href="#">More</a>
+                    
+                    <div class="copyright">
+                        <img src="./img/logo.png" alt="">
+                        <p>Linkedup &#169; 2022. All right reserved </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- profilemenu -->
+
+    <script>
+        let togglebtn = document.getElementById("toggle")
+        let profile_menu = document.getElementById("profilemenu")
+        
+        togglebtn.addEventListener("click", () => {
+            profile_menu.classList.toggle("open-menu")
+        })
+    </script>
+
+    <script>
+        let toggle = document.getElementById("nav-toggle")
+        let navlinks = document.getElementById("nav-links")
+
+        toggle.addEventListener("click", () => {
+            navlinks.classList.toggle("active")
+        })
+
+    </script>
+    
+</body>
+</html>
